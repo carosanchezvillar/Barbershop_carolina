@@ -1,0 +1,11 @@
+a{
+    color: $cs-RuddyPink;
+    font-family: $cs-roboto;
+    font-size: $cs-large;
+    font-weight: 300;
+
+    &:hover{
+        color: $cs-EerieBlack;
+        text-decoration: none;
+    }
+}

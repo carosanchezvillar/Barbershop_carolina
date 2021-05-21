@@ -1,0 +1,29 @@
+.main{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: $cs-Nickel;
+}
+
+
+
+.main img{
+    width: 180px;
+    border-radius: 150px;
+}
+
+
+
+.links__naomi{
+    color: $cs-FuzzyWuzzy;
+    font-family: $cs-roboto;
+    font-weight: $cs-light;
+    font-size: $cs-large;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .naomi__text{
+       display: none;
+   }
+  }

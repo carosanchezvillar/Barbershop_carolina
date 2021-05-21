@@ -1,0 +1,64 @@
+.hero{
+    height: 87vh;
+    background-image: url('../../assets/img/background.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+   
+
+    &__title{
+        padding-top: 200px;
+        font-family: $cs-playfair;
+        color: $cs-white;
+        font-weight: $cs-blackitalic;
+        font-style: italic;
+        text-shadow: 0px 3px 6px $cs-EerieBlack;
+        
+        
+    }
+   
+    &__arrow{
+        padding-top: 250px;
+        color: $cs-white;
+
+    }
+    
+}
+
+
+
+
+
+
+.nav-link .blog{
+    color: $cs-FuzzyWuzzy;
+    
+    }    
+
+
+.logo img{
+    height: 60px;
+    width: auto;
+}
+
+.navbar-toggler{
+    color: $cs-white;
+}
+
+.navbar{
+    background-color: $cs-EerieBlack !important;
+}
+
+.menu{
+    color: $cs-white;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+h1{
+   font-size: $cs-xx-large;
+   color: $cs-white;
+   font-family: $cs-playfair;
+   font-weight: $cs-blackitalic;
+   margin-top: 30%;
+   }
+
+h2{
+      font-family: $cs-playfair;
+      font-size: $cs-x-large;
+      color: $cs-EerieBlack;
+      font-weight: $cs-blackitalic;
+      font-style: italic;
+  }
+
+h5{
+   font-family: $cs-playfair;
+   font-size: $cs-large;
+   color: $cs-Nickel;
+}
+
+p{
+   margin-top: 5rem;
+   font-family: $cs-roboto;
+   font-size: $cs-medium;
+   font-weight: $cs-light;
+   line-height: 45px;
+   margin-bottom: 5rem;
+}
+span{
+   color: $cs-RuddyPink;
+} 
+
+h6{
+   font-family: $cs-roboto;
+   font-size: $cs-small;
+   font-weight: $cs-light !important;
+   line-height: 45px !important;
+   margin-right: 0.5rem;
+   margin: none !important;
+}
+

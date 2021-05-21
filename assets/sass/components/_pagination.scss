@@ -1,0 +1,45 @@
+.background_pagination{
+    background-color: $cs-lightGray;
+    padding: 1rem;
+    margin-top: 5rem;
+    border-top: solid $cs-Nickel 0.3px;
+    
+}
+
+.paginacion{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;  
+    font-weight: $cs-blackitalic; 
+}
+
+
+
+.page-link{
+    color: $cs-Nickel !important;
+}
+
+li{
+    border-radius: 2rem;
+}
+
+.anterior{
+    border-top-left-radius: 2rem !important;
+    border-bottom-left-radius: 2rem !important;
+}
+
+.siguiente{
+    border-top-right-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+}
+
+.active{
+    .page-link{
+    font-weight: $cs-blackitalic !important;
+    color: $cs-EerieBlack !important;
+    background-color: $cs-Nickel !important;
+    border-radius: none !important;
+    border-color: $cs-Nickel !important;
+    
+}
+}
